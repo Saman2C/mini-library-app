@@ -16,3 +16,4 @@ A simple CLI app to manage a mini library: add, search, and delete books with pe
 ```bash
 git clone https://github.com/Saman2C/mini-library-app.git
 cd mini-library-app
+python -m src.app
