@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "midnight library",
+    "author": "mmd",
+    "year": 1988
+  },
+  {
+    "id": 2,
+    "title": "mmd jan",
+    "author": "saman",
+    "year": 2026
+  }
+]
