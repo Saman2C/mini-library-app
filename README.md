@@ -1,28 +1,53 @@
-# Mini Library App (Python)
+# 📚 Mini Library App (Python)
 
-A simple CLI app to manage a mini library: add, search, and delete books with persistent storage in JSON.
+## Project Overview
+This project is a **simple Mini Library Management System** implemented in **Python**.  
+It allows users to manage a collection of books by adding, searching, and deleting them.  
+All data is stored **persistently** using a JSON file.
+
+The project was developed as a team assignment to practice:
+- Git & GitHub
+- Branching strategy
+- Pull Requests & Code Review
+- Issue tracking
+- Merge conflict resolution
+- Team collaboration
+
+---
 
 ## Features
 - Add a book (title, author, year)
 - Search books by partial title
-- Delete book by id or exact title (handles duplicates)
-- Persistent storage using `data/books.json`
+- Delete books by ID or exact title
+- Persistent storage using `books.json`
+- CLI interface
+- Bonus: Graphical UI using Streamlit
 
-## Requirements
-- Python 3.10+ (recommended 3.11)
+---
+
+## Prerequisites
+Make sure the following tools are installed on your system:
+
+- Python 3.10 or higher
 - Git
+- (For bonus UI) Streamlit
 
-## Setup
+---
+
+## Installation & Run (Step-by-step)
+
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Saman2C/mini-library-app.git
 cd mini-library-app
-python -m src.app
+
 ```
 
-## Bonus UI (Streamlit)
+### Bonus UI (Streamlit)
 To run the UI:
 
 ```bash
 pip install -r requirements.txt
 
 streamlit run ui/app_streamlit.py
+
