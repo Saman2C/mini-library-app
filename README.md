@@ -17,11 +17,12 @@ A simple CLI app to manage a mini library: add, search, and delete books with pe
 git clone https://github.com/Saman2C/mini-library-app.git
 cd mini-library-app
 python -m src.app
-
+```
 
 ## Bonus UI (Streamlit)
 To run the UI:
 
 ```bash
 pip install -r requirements.txt
+
 streamlit run ui/app_streamlit.py
